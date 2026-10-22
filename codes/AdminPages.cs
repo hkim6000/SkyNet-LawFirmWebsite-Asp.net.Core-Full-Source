@@ -36,8 +36,8 @@ namespace LawFirm.codes
         private async Task Shell(ApiResponse response, Ctx c, SiteData site)
         {
             response.SetElementContents("pe-brand", Ui.Esc(site.Brand));
-            response.SetElementContents("pe-menu", await Auth.Menu("pg", "AdminPages", c));
-            response.SetElementContents("pe-who", Auth.Who("pg", c));
+            response.SetElementContents("pe-menu", await Auth.Menu("pe", "AdminPages", c));
+            response.SetElementContents("pe-who", Auth.Who("pe", c));
         }
 
         public async Task<ApiResponse> Load()
