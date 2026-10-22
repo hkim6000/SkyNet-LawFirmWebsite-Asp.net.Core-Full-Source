@@ -1,0 +1,525 @@
+{
+  "brand": "Harrow & Vance",
+  "legal": "Harrow & Vance, Attorneys at Law",
+  "tagline": "Counsel for the businesses, families and property owners of Harlow, Ohio.",
+  "street": "214 Meridian Street, Suite 300",
+  "city": "Harlow",
+  "region": "OH",
+  "zip": "43099",
+  "phone": "(555) 014-2200",
+  "fax": "(555) 014-2201",
+  "email": "office@harrowvance.example",
+  "hours": "Monday to Friday, 8:30 am to 5:30 pm\nEvenings by appointment",
+  "disclaimer": "Attorney advertising. Not legal advice.",
+  "formNote": "Sending this form does not create an attorney-client relationship. Please do not include confidential details.",
+  "notifyEmail": "",
+  "maxVideoMb": 30,
+  "topics": [
+    {
+      "key": "business",
+      "name": "Business"
+    },
+    {
+      "key": "employment",
+      "name": "Employment"
+    },
+    {
+      "key": "property",
+      "name": "Property"
+    },
+    {
+      "key": "family-estates",
+      "name": "Family & Estates"
+    }
+  ],
+  "pages": {
+    "home": {
+      "blocks": [
+        {
+          "id": "bhome0001",
+          "type": "hero",
+          "source": "",
+          "hidden": false,
+          "kicker": "Harlow, Ohio · Since 1998",
+          "title": "Clear advice. Careful work. A lawyer you can reach.",
+          "text": "<p>Harrow & Vance advises businesses, families and property owners across Harlow and the surrounding counties.</p>",
+          "media": "images/hero-office.webp",
+          "label": "Request a free consultation",
+          "link": "Contact",
+          "label2": "Our practice areas",
+          "link2": "PracticeAreas",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "images/hero-library.webp",
+              "title": "The firm library",
+              "text": "",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "images/hero-conference.webp",
+              "title": "The conference room",
+              "text": "",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bhome0002",
+          "type": "data",
+          "source": "areas",
+          "hidden": false,
+          "kicker": "What we do",
+          "title": "Practice areas",
+          "text": "<p>Six areas of law, each handled by attorneys who work in it every day.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bhome0003",
+          "type": "steps",
+          "source": "",
+          "hidden": false,
+          "kicker": "How we work",
+          "title": "From first call to resolution",
+          "text": "<p>Every matter follows the same four steps, so you always know where you are.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Listen",
+              "text": "We start with a free conversation about what is happening and what you want to achieve.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Advise",
+              "text": "We explain your options in plain language, with an honest view of the cost and the risks.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Act",
+              "text": "We prepare the documents, negotiate or litigate, and keep you informed at each step.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Resolve",
+              "text": "We finish the matter, confirm that everything is in order and stay available afterward.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bhome0004",
+          "type": "data",
+          "source": "attorneys",
+          "hidden": false,
+          "kicker": "Our attorneys",
+          "title": "The people you will work with",
+          "text": "<p>Five attorneys, one office, and a direct line to the person handling your matter.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bhome0005",
+          "type": "data",
+          "source": "insights",
+          "hidden": false,
+          "kicker": "Insights",
+          "title": "Latest from the firm",
+          "text": "<p>Short, practical articles written by our attorneys.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bhome0006",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "Free consultation",
+          "title": "Tell us what is happening",
+          "text": "<p>A first conversation is free and carries no obligation. We will listen, tell you what we see and explain what comes next.</p>",
+          "media": "",
+          "label": "Request a consultation",
+          "link": "Contact",
+          "label2": "Call (555) 014-2200",
+          "link2": "tel:(555) 014-2200",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-09-14T09:00:00Z",
+      "by": "system"
+    },
+    "areas": {
+      "blocks": [
+        {
+          "id": "bareas001",
+          "type": "data",
+          "source": "arealist",
+          "hidden": false,
+          "kicker": "Practice areas",
+          "title": "What the firm handles",
+          "text": "<p>Choose an area to read what we handle and meet the attorneys who work in it. Not sure where your question belongs? Contact us and we will point you to the right person.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bareas002",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "Free consultation",
+          "title": "Tell us what is happening",
+          "text": "<p>A first conversation is free and carries no obligation. We will listen, tell you what we see and explain what comes next.</p>",
+          "media": "",
+          "label": "Request a consultation",
+          "link": "Contact",
+          "label2": "Call (555) 014-2200",
+          "link2": "tel:(555) 014-2200",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-09-14T09:00:00Z",
+      "by": "system"
+    },
+    "attorneys": {
+      "blocks": [
+        {
+          "id": "batty0001",
+          "type": "data",
+          "source": "attorneylist",
+          "hidden": false,
+          "kicker": "Attorneys",
+          "title": "Meet the attorneys",
+          "text": "<p>Five attorneys admitted in Ohio, with one also admitted in Kentucky. Filter by practice area to find the right person.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "batty0002",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "Free consultation",
+          "title": "Tell us what is happening",
+          "text": "<p>A first conversation is free and carries no obligation. We will listen, tell you what we see and explain what comes next.</p>",
+          "media": "",
+          "label": "Request a consultation",
+          "link": "Contact",
+          "label2": "Call (555) 014-2200",
+          "link2": "tel:(555) 014-2200",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-09-14T09:00:00Z",
+      "by": "system"
+    },
+    "insights": {
+      "blocks": [
+        {
+          "id": "bins00001",
+          "type": "data",
+          "source": "articlelist",
+          "hidden": false,
+          "kicker": "Insights",
+          "title": "Articles from the firm",
+          "text": "<p>Practical notes on business, employment, property, family and estate matters. General information only, not advice about your own situation.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-09-14T09:00:00Z",
+      "by": "system"
+    },
+    "about": {
+      "blocks": [
+        {
+          "id": "babout001",
+          "type": "split",
+          "source": "",
+          "hidden": false,
+          "kicker": "About the firm",
+          "title": "A small firm, on purpose",
+          "text": "<p>Eleanor Harrow and Daniel Vance opened Harrow & Vance in 1998 in a single room above a hardware store on Meridian Street. Today the firm has five attorneys and one office, still on Meridian Street.</p><p>We kept the firm small so that every client works with a lawyer, not a queue. You will have the direct number of the person handling your matter, and you will hear from us before you have to ask.</p>",
+          "media": "images/about-firm.webp",
+          "label": "Meet the attorneys",
+          "link": "Attorneys",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "babout002",
+          "type": "stats",
+          "source": "",
+          "hidden": false,
+          "kicker": "The firm in numbers",
+          "title": "",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "28",
+              "text": "years in Harlow",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "5",
+              "text": "attorneys",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "6",
+              "text": "practice areas",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "1",
+              "text": "office, on Meridian Street",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "babout003",
+          "type": "cards",
+          "source": "",
+          "hidden": false,
+          "kicker": "How we see the work",
+          "title": "What you can expect",
+          "text": "<p>Three commitments that guide every matter.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "scale",
+              "media": "",
+              "title": "Plain answers",
+              "text": "We explain the law in words you would use yourself, and we tell you when the answer is that it depends.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "clock",
+              "media": "",
+              "title": "Direct access",
+              "text": "Your calls and emails are returned by the lawyer handling your matter, usually within one business day.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "shield",
+              "media": "",
+              "title": "Careful preparation",
+              "text": "We read everything, check the details and prepare every matter as if it could be tried.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "babout004",
+          "type": "people",
+          "source": "",
+          "hidden": false,
+          "kicker": "Partners",
+          "title": "The founding partners",
+          "text": "<p>The firm's founders still work with clients every day.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "images/lawyer-harrow.webp",
+              "title": "Eleanor Harrow",
+              "text": "Founding Partner",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "images/lawyer-vance.webp",
+              "title": "Daniel Vance",
+              "text": "Founding Partner",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "babout005",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "Free consultation",
+          "title": "Tell us what is happening",
+          "text": "<p>A first conversation is free and carries no obligation. We will listen, tell you what we see and explain what comes next.</p>",
+          "media": "",
+          "label": "Request a consultation",
+          "link": "Contact",
+          "label2": "Call (555) 014-2200",
+          "link2": "tel:(555) 014-2200",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-09-14T09:00:00Z",
+      "by": "system"
+    },
+    "contact": {
+      "blocks": [
+        {
+          "id": "bcont0001",
+          "type": "data",
+          "source": "contactform",
+          "hidden": false,
+          "kicker": "Contact",
+          "title": "Request a free consultation",
+          "text": "<p>Tell us briefly what is happening and how to reach you. A member of the firm will respond, usually within one business day.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bcont0002",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "Before you write",
+          "title": "Common questions",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Is the first consultation really free?",
+              "text": "Yes. The first conversation, by phone or in our office, is free and carries no obligation.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Does sending this form make you my lawyer?",
+              "text": "No. An attorney-client relationship begins only when we confirm in writing that we will represent you. Please do not send confidential details until then.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "How soon will I hear back?",
+              "text": "Usually within one business day. If it is urgent, please call the office.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "What should I bring to a first meeting?",
+              "text": "Any documents that relate to your question, such as contracts, letters or court papers, and a short list of what you would like to achieve.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "versions": [],
+      "saved": "2026-09-14T09:00:00Z",
+      "by": "system"
+    }
+  }
+}

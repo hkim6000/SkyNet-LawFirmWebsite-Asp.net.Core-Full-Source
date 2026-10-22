@@ -1,0 +1,16 @@
+[
+  {
+    "when": "2026-10-22T00:02:38.0169153Z",
+    "userId": "u-demo",
+    "action": "sign in",
+    "target": "Demo manager",
+    "ok": true
+  },
+  {
+    "when": "2026-10-21T23:56:24.0155527Z",
+    "userId": "u-demo",
+    "action": "sign in",
+    "target": "Demo manager",
+    "ok": true
+  }
+]

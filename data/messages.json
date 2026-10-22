@@ -1,0 +1,57 @@
+[
+  {
+    "id": "s0a1b2c3d401",
+    "name": "Priya Nair",
+    "email": "priya.nair@mail.example",
+    "phone": "(555) 013-7741",
+    "area": "business",
+    "text": "My brother and I want to buy out a third partner in our print shop. We have no written agreement. Where should we start?",
+    "when": "2026-10-20T14:12:00Z",
+    "status": "New",
+    "ack": true
+  },
+  {
+    "id": "s0a1b2c3d402",
+    "name": "Walter Brandt",
+    "email": "w.brandt@mail.example",
+    "phone": "",
+    "area": "real-estate",
+    "text": "I own a small building with two tenants and my leases are ten years old. Can someone review them?",
+    "when": "2026-10-19T09:40:00Z",
+    "status": "New",
+    "ack": true
+  },
+  {
+    "id": "s0a1b2c3d403",
+    "name": "Camille Duarte",
+    "email": "camille.duarte@mail.example",
+    "phone": "(555) 012-5530",
+    "area": "estate-planning",
+    "text": "After my mother passed I was named executor of her estate. I have the will but do not know what to do first.",
+    "when": "2026-10-16T16:05:00Z",
+    "status": "Read",
+    "ack": true
+  },
+  {
+    "id": "s0a1b2c3d404",
+    "name": "Jonah Pierce",
+    "email": "jonah.pierce@mail.example",
+    "phone": "(555) 011-2208",
+    "area": "employment",
+    "text": "I was given a severance agreement and have until the end of the month to sign. I would like to understand it before I do.",
+    "when": "2026-10-09T11:30:00Z",
+    "status": "Replied",
+    "ack": true
+  },
+  {
+    "id": "s0a1b2c3d405",
+    "name": "Helen Marsh",
+    "email": "helen.marsh@mail.example",
+    "phone": "",
+    "area": "",
+    "text": "Looking for the name of a notary. Thank you.",
+    "when": "2026-09-30T08:15:00Z",
+    "status": "Archived",
+    "ack": true
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "key": "eleanor-harrow",
+    "name": "Eleanor Harrow",
+    "role": "Founding Partner",
+    "photo": "images/lawyer-harrow.webp",
+    "email": "eharrow@harrowvance.example",
+    "phone": "(555) 014-2210",
+    "areas": [
+      "business",
+      "real-estate",
+      "estate-planning"
+    ],
+    "bio": "Eleanor founded the firm in 1998 with a simple idea: clients should be able to reach the lawyer who is handling their matter.\n\nShe advises owner-managed businesses on formation, financing and succession, and she helps families plan for the transfer of a business or a home to the next generation. Clients value her patience with detail and her habit of explaining a document line by line.\n\nEleanor chairs the Harlow Small Business Council and teaches an evening course on contracts at a local community college.",
+    "bars": [
+      {
+        "state": "Ohio",
+        "year": 1994,
+        "number": "0061482"
+      }
+    ],
+    "education": [
+      {
+        "school": "Lakeshore University School of Law",
+        "degree": "Juris Doctor",
+        "year": 1994
+      },
+      {
+        "school": "Marlowe College",
+        "degree": "Bachelor of Arts, Economics",
+        "year": 1991
+      }
+    ],
+    "show": true
+  },
+  {
+    "key": "daniel-vance",
+    "name": "Daniel Vance",
+    "role": "Founding Partner",
+    "photo": "images/lawyer-vance.webp",
+    "email": "dvance@harrowvance.example",
+    "phone": "(555) 014-2211",
+    "areas": [
+      "litigation",
+      "business",
+      "employment"
+    ],
+    "bio": "Daniel leads the firm's litigation practice. He has tried cases in the state courts of Ohio and in federal court, and he is known for telling clients early and plainly what a case is likely to cost.\n\nHe represents businesses and individuals in contract, partnership and employment disputes, and he serves as a mediator in commercial matters.\n\nOutside the office Daniel coaches a youth debate league and volunteers with the county legal aid clinic.",
+    "bars": [
+      {
+        "state": "Ohio",
+        "year": 1996,
+        "number": "0067310"
+      },
+      {
+        "state": "Kentucky",
+        "year": 2001,
+        "number": "91244"
+      }
+    ],
+    "education": [
+      {
+        "school": "Lakeshore University School of Law",
+        "degree": "Juris Doctor",
+        "year": 1996
+      },
+      {
+        "school": "Brannock State University",
+        "degree": "Bachelor of Arts, History",
+        "year": 1993
+      }
+    ],
+    "show": true
+  },
+  {
+    "key": "naomi-okafor",
+    "name": "Naomi Okafor",
+    "role": "Partner",
+    "photo": "images/lawyer-okafor.webp",
+    "email": "nokafor@harrowvance.example",
+    "phone": "(555) 014-2212",
+    "areas": [
+      "employment",
+      "litigation",
+      "family-law"
+    ],
+    "bio": "Naomi advises employers and employees on the full range of workplace questions, from handbooks and agreements to terminations and disputes.\n\nShe also handles contested family matters, where her calm manner and careful preparation help clients through difficult months.\n\nNaomi is a member of the Harlow County Bar Association's grievance committee.",
+    "bars": [
+      {
+        "state": "Ohio",
+        "year": 2006,
+        "number": "0079654"
+      }
+    ],
+    "education": [
+      {
+        "school": "Northgate University School of Law",
+        "degree": "Juris Doctor",
+        "year": 2006
+      },
+      {
+        "school": "Marlowe College",
+        "degree": "Bachelor of Arts, Political Science",
+        "year": 2003
+      }
+    ],
+    "show": true
+  },
+  {
+    "key": "marcus-avery",
+    "name": "Marcus Avery",
+    "role": "Senior Associate",
+    "photo": "images/lawyer-avery.webp",
+    "email": "mavery@harrowvance.example",
+    "phone": "(555) 014-2213",
+    "areas": [
+      "real-estate",
+      "business"
+    ],
+    "bio": "Marcus handles residential and commercial property transactions and the leases, loans and entity work that go with them.\n\nHe is a frequent speaker at landlord association meetings and likes to say that the best lease is the one nobody has to read twice because it was written clearly.\n\nBefore joining the firm he worked in the legal department of a regional lender.",
+    "bars": [
+      {
+        "state": "Ohio",
+        "year": 2012,
+        "number": "0088123"
+      }
+    ],
+    "education": [
+      {
+        "school": "Northgate University School of Law",
+        "degree": "Juris Doctor",
+        "year": 2012
+      },
+      {
+        "school": "Brannock State University",
+        "degree": "Bachelor of Science, Finance",
+        "year": 2009
+      }
+    ],
+    "show": true
+  },
+  {
+    "key": "elena-moreno",
+    "name": "Elena Moreno",
+    "role": "Associate",
+    "photo": "images/lawyer-moreno.webp",
+    "email": "emoreno@harrowvance.example",
+    "phone": "(555) 014-2214",
+    "areas": [
+      "family-law",
+      "estate-planning"
+    ],
+    "bio": "Elena focuses on family law and estate planning. She works with clients on parenting arrangements, support and property questions, and she helps families put wills, trusts and powers of attorney in place.\n\nShe speaks English and Spanish and welcomes clients in either language.\n\nElena volunteers as a guardian ad litem trainee with the county court.",
+    "bars": [
+      {
+        "state": "Ohio",
+        "year": 2019,
+        "number": "0097766"
+      }
+    ],
+    "education": [
+      {
+        "school": "Lakeshore University School of Law",
+        "degree": "Juris Doctor",
+        "year": 2019
+      },
+      {
+        "school": "Brannock State University",
+        "degree": "Bachelor of Arts, Sociology",
+        "year": 2016
+      }
+    ],
+    "show": true
+  }
+]

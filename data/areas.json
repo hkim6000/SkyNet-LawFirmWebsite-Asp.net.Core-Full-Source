@@ -1,0 +1,98 @@
+[
+  {
+    "key": "business",
+    "name": "Business & Commercial",
+    "summary": "Formation, contracts, financing and disputes for owner-managed companies and their lenders.",
+    "media": "images/area-business.webp",
+    "intro": "Most businesses we advise are owned by the people who run them. They need a lawyer who understands that a decision about a lease, a hire or a partner is also a decision about a family's income.\n\nWe help you choose the right structure, put agreements on paper while everyone still agrees, and resolve disagreements early and quietly when they arise.",
+    "handles": [
+      "Choosing and forming a company, partnership or nonprofit",
+      "Operating agreements and shareholder agreements",
+      "Commercial contracts, vendor terms and credit agreements",
+      "Buying, selling and succession of a business",
+      "Commercial leases, for tenants and landlords",
+      "Business disputes, negotiated first and litigated when needed"
+    ],
+    "show": true
+  },
+  {
+    "key": "employment",
+    "name": "Employment Law",
+    "summary": "Advice for employers on policies and compliance, and for employees on agreements, pay and workplace rights.",
+    "media": "images/area-employment.webp",
+    "intro": "Work is where most people spend their days, and the rules around it are detailed. We advise small and mid-sized employers on getting the basics right, and we advise individual employees who have been handed an agreement or a decision they do not understand.\n\nWe will tell you plainly where you stand, what the options are and what each option is likely to cost.",
+    "handles": [
+      "Employee handbooks and workplace policies",
+      "Employment, non-compete and severance agreements",
+      "Wage and hour compliance and classification of workers",
+      "Workplace investigations and discipline",
+      "Discrimination and retaliation concerns",
+      "Separation negotiations for executives and employees"
+    ],
+    "show": true
+  },
+  {
+    "key": "real-estate",
+    "name": "Real Estate",
+    "summary": "Purchases, sales, leases, financing and title for homeowners, investors and landlords.",
+    "media": "images/area-realestate.webp",
+    "intro": "A property transaction is usually the largest agreement a person signs. We read the paper carefully so that you do not have to guess what you are agreeing to.\n\nWe act for buyers, sellers, landlords and tenants, and we work closely with lenders, title companies and surveyors to keep a closing on schedule.",
+    "handles": [
+      "Residential purchases and sales",
+      "Commercial purchases, sales and leasing",
+      "Landlord and tenant matters, including lease drafting",
+      "Title review, easements and boundary questions",
+      "Financing and refinancing documents",
+      "Zoning and land use applications before local boards"
+    ],
+    "show": true
+  },
+  {
+    "key": "family-law",
+    "name": "Family Law",
+    "summary": "Divorce, parenting arrangements, support and agreements, handled with care and a steady hand.",
+    "media": "images/area-family.webp",
+    "intro": "Family matters are personal, and the legal process around them can feel cold. We explain each step before it happens, keep you informed, and look first for solutions that spare your family a courtroom.\n\nWhere a court is unavoidable, we prepare thoroughly and keep the focus on what matters most to you and your children.",
+    "handles": [
+      "Divorce and legal separation",
+      "Parenting time, decision-making and relocation",
+      "Child and spousal support",
+      "Property division",
+      "Prenuptial and postnuptial agreements",
+      "Mediation and collaborative resolution"
+    ],
+    "show": true
+  },
+  {
+    "key": "estate-planning",
+    "name": "Estate Planning & Probate",
+    "summary": "Wills, trusts and powers of attorney, and guidance for families settling an estate.",
+    "media": "images/area-estate.webp",
+    "intro": "A good estate plan is a kindness to the people you leave behind. We help you decide who will make decisions if you cannot, who will receive what you have, and how to make that as simple as possible for them.\n\nWhen a loved one has died, we guide families and executors through probate one practical step at a time.",
+    "handles": [
+      "Wills and revocable living trusts",
+      "Powers of attorney and health care directives",
+      "Planning for a family business or real estate",
+      "Guardianship nominations for children",
+      "Probate and estate administration",
+      "Trust administration and beneficiary questions"
+    ],
+    "show": true
+  },
+  {
+    "key": "litigation",
+    "name": "Civil Litigation",
+    "summary": "Representation in contract, property and business disputes, from first letter to trial and appeal.",
+    "media": "images/area-litigation.webp",
+    "intro": "Most disputes are resolved without a trial, and we work to find those resolutions when they serve you. We also prepare every matter as though it could be tried, because that preparation is what produces good settlements.\n\nWe will give you an honest assessment of strengths, weaknesses and cost before you decide how to proceed.",
+    "handles": [
+      "Contract and business disputes",
+      "Real estate and boundary disputes",
+      "Partnership and shareholder disagreements",
+      "Collection and creditor matters",
+      "Mediation and arbitration",
+      "Trial and appeal in state and federal court"
+    ],
+    "show": true
+  }
+]
