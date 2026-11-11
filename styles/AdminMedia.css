@@ -190,3 +190,16 @@ body { margin: 0; }
 
 .ml-repbtn { justify-self: start; }
 .ml-field .ml-upbtn { display: inline-flex; }
+
+@view-transition { navigation: auto; }
+
+@media (min-width: 981px) {
+    .ml-top { view-transition-name: hv-top; }
+    .ml-rail { view-transition-name: hv-rail; }
+}
+
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.15s; }
+
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none; }
+}

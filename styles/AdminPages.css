@@ -296,3 +296,16 @@ body { margin: 0; }
 .pe-x-hero .pe-emi { align-items: stretch; }
 .pe-x-hero .pe-emi .pe-emb { aspect-ratio: 5 / 2; width: 100%; border-radius: 8px; margin: 0 0 4px; }
 .pe-x-hero .pe-emi .pe-emx { right: 6px; transform: none; bottom: 10px; }
+
+@view-transition { navigation: auto; }
+
+@media (min-width: 981px) {
+    .pe-top { view-transition-name: hv-top; }
+    .pe-rail { view-transition-name: hv-rail; }
+}
+
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.15s; }
+
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none; }
+}

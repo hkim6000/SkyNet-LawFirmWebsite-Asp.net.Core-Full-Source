@@ -1,5 +1,26 @@
 [
   {
+    "when": "2026-11-11T06:47:38.9339439Z",
+    "userId": "u-demo",
+    "action": "sign in",
+    "target": "Demo manager",
+    "ok": true
+  },
+  {
+    "when": "2026-11-11T06:39:22.7980418Z",
+    "userId": "u-demo",
+    "action": "sign in",
+    "target": "Demo manager",
+    "ok": true
+  },
+  {
+    "when": "2026-11-11T06:38:34.6520059Z",
+    "userId": "u-demo",
+    "action": "sign in",
+    "target": "Demo manager",
+    "ok": true
+  },
+  {
     "when": "2026-11-11T05:54:24.5726784Z",
     "userId": "u-demo",
     "action": "sign in",

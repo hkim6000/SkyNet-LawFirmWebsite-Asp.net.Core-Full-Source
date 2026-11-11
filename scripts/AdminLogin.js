@@ -75,3 +75,8 @@ if (document.readyState === 'loading') {
 } else {
     AdminLoginJs.reveal();
 }
+
+try {
+    sessionStorage.removeItem('hv_shell');
+} catch (e) {
+}

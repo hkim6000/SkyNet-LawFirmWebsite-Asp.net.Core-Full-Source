@@ -367,3 +367,104 @@ if (document.readyState === 'loading') {
 } else {
     AdminMediaJs.reveal();
 }
+
+(function () {
+    var P = 'ml', PAGE = 'AdminMedia', K = 'hv_shell';
+    var s = null, done = { menu: false, who: false, brand: false };
+
+    try {
+        s = JSON.parse(sessionStorage.getItem(K) || 'null');
+    } catch (e) {
+        s = null;
+    }
+
+    function menu(m) {
+        if (m.children.length || !Array.isArray(s.items)) {
+            return;
+        }
+        s.items.forEach(function (it) {
+            if (!it || !/^Admin[A-Za-z]*$/.test(it.h || '')) {
+                return;
+            }
+            var a = document.createElement('a');
+            a.className = P + '-mi' + (it.h === PAGE ? ' ' + P + '-on' : '');
+            a.setAttribute('href', it.h);
+            a.textContent = String(it.t || '');
+            if (/^[0-9]{1,5}$/.test(String(it.b || ''))) {
+                var i = document.createElement('i');
+                i.className = P + '-badge';
+                i.textContent = it.b;
+                a.appendChild(i);
+            }
+            m.appendChild(a);
+        });
+    }
+
+    function who(w) {
+        if (w.children.length || !s.name) {
+            return;
+        }
+        var b = document.createElement('b');
+        b.textContent = String(s.name);
+        var sm = document.createElement('small');
+        sm.textContent = String(s.role || '');
+        w.appendChild(b);
+        w.appendChild(sm);
+    }
+
+    function paint() {
+        var m = document.getElementById(P + '-menu');
+        var w = document.getElementById(P + '-who');
+        var br = document.getElementById(P + '-brand');
+        if (!done.menu && m) {
+            menu(m);
+            done.menu = true;
+        }
+        if (!done.who && w) {
+            who(w);
+            done.who = true;
+        }
+        if (!done.brand && br && br.textContent === 'Staff') {
+            if (s.brand) {
+                br.textContent = String(s.brand);
+            }
+            done.brand = true;
+        }
+        return done.menu && done.who && done.brand;
+    }
+
+    function keep() {
+        var m = document.getElementById(P + '-menu');
+        var w = document.getElementById(P + '-who');
+        var br = document.getElementById(P + '-brand');
+        if (!m || !w || !m.children.length) {
+            return;
+        }
+        var items = [];
+        Array.prototype.forEach.call(m.querySelectorAll('a'), function (a) {
+            var i = a.querySelector('i');
+            items.push({ h: a.getAttribute('href') || '', t: a.firstChild ? a.firstChild.textContent : '', b: i ? i.textContent : '' });
+        });
+        var b = w.querySelector('b'), sm = w.querySelector('small');
+        var brand = br ? br.textContent : '';
+        try {
+            sessionStorage.setItem(K, JSON.stringify({ items: items, name: b ? b.textContent : '', role: sm ? sm.textContent : '', brand: brand === 'Staff' ? '' : brand }));
+        } catch (e) {
+        }
+    }
+
+    window.addEventListener('pagehide', keep);
+
+    if (s && !paint()) {
+        var ob = new MutationObserver(function () {
+            if (paint()) {
+                ob.disconnect();
+            }
+        });
+        ob.observe(document.documentElement, { childList: true, subtree: true });
+        document.addEventListener('DOMContentLoaded', function () {
+            paint();
+            ob.disconnect();
+        });
+    }
+})();

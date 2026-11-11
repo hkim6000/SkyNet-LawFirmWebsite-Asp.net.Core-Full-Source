@@ -226,3 +226,16 @@ body { margin: 0; }
 .ms-gap { height: 14px; }
 .ms-quote { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--ms-bg); border: 1px solid var(--ms-line); border-left: 3px solid #B08D4A; border-radius: 8px; padding: 14px 16px; }
 .ms-link { color: var(--ms-ink); text-decoration: underline; text-underline-offset: 2px; }
+
+@view-transition { navigation: auto; }
+
+@media (min-width: 981px) {
+    .ms-top { view-transition-name: hv-top; }
+    .ms-rail { view-transition-name: hv-rail; }
+}
+
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.15s; }
+
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none; }
+}
